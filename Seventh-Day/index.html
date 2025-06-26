@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* element selector */
+        /* div{
+            background-color: red;
+        } */
+         .dhruv{
+            background-color: pink;
+         }
+
+         #dhruv{
+            background-color: green;
+         }
+
+        /* Child selectors */
+        div > p {
+            color : blue;
+            background-color : green;
+        }
+        /* Descendent Selector */
+        div  p {
+            color : blue;
+            background-color : green;
+        }
+         /* Universal Selector */
+        * {
+           margin: 0;
+           padding:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="dhruv">
+        I am div
+        <article>
+            <p>I am a paragraph inside div</p>
+        </article>
+        
+    </div>
+    <div id="dhruv">
+        I am another div
+    </div>
+</body>
+</html>
